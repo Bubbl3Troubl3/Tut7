@@ -11,7 +11,7 @@ public class Person {
 		super();
 	}
 	
-	public Person(String firstName, String name, Gender gender,Address address) {
+	public Person(String firstName, String name, Gender gender, Address address) {
 		super();
 		this.firstName = firstName;
 		this.name = name;
@@ -80,7 +80,4 @@ public class Person {
 	public void setAddress(Address address) {
 		this.address = address;
 	}
-	
-
-
 }
